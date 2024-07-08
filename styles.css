@@ -4,7 +4,7 @@
 
 body {
   transition: 1s background-image;
-  background-image: url("https://images.unsplash.com/photo-1610970884954-4d376ecba53f?q=80&w=2718&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-image: url("80%");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -12,7 +12,7 @@ body {
 }
 .my-text {
   font-family: fantasy;
-  color: #caf6f6;
+  color: #023b0b;
   font-weight: bolder;
   /* allign to center */
   text-align: center;
