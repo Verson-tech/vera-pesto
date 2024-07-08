@@ -37,33 +37,53 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
     <title>Vera's pesto</title>
   </head>
+  <style>
+/* adopt my-image-container to all screens */
+#my-image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  transition: 1s background-image;
+  background-image: url("https://images.unsplash.com/photo-1610970884954-4d376ecba53f?q=80&w=2718&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(242, 239, 248);
+}
+
+
+  </style>
   <body>
-    <div class="container">
+    <section class="d-flex justify-content-center">
+    <div class="container" >
       <div class="row">
+        <div class="col-2"></div>
         <div class="col">
-          <p
-            class="text-center"
-            style="
-              font-size: 50px;
-              font-family: 'Times New Roman', Times, serif;
-            "
-          >
-        <h2>Vera's Homemade Pesto</h2>
-        <div class="d-inline p-2">
+          <p>
+        <h2 style="font-family: fantasy; color: #03433f; padding-top: 40px;">Vera's Homemade Pesto</h2>
+        <div class="d-inline p-2 d-flex">
         <img style="height: 100px;" class="rounded" src="img/20240707_194702.jpg" alt="Vera's Homemade Pesto" />
     </div>
+    <div style="font-family: fantasy; color: #03433f; font-weight: bolder;">
         <h3>Ingredients</h3>
         <li>1 cup freshly cut basil leaves</li>
         <li>3 cloves of garlic</li>
         <li>3 tablespoons pine nuts</li>
         <li>salt and freshly ground black pepper, to taste</li>
         <li>⅓ cup olive oil</li>
+      </div>
           </p>
-        </div>
+    </div>
         <div class="col"></div>
-        <div class="col-8">
+        <div class="col-6" id="my-image-container" >
           <div
             id="carouselExampleIndicators"
             class="carousel slide"
@@ -88,7 +108,9 @@
               <div class="carousel-item active">
                 <img
                   class="d-block w-100"
-                  src="/img/20240707_190024.jpg"
+                  id="my-image"
+                  style="height: 50vmax; padding: 40px;"
+                  src="/img/20240707_185235.jpg"
                   alt="First slide"
                 />
                 <div class="carousel-caption d-none d-md-block">
@@ -102,29 +124,19 @@
               <div class="carousel-item">
                 <img
                   class="d-block w-100"
-                  src="img/20240707_185933.jpg"
+                  id="my-image"
+                  style="height: 50vmax; padding: 40px;"
+                  src="img/20240707_185949.jpg"
                   alt="Second slide"
                 />
               </div>
               <div class="carousel-item">
                 <img
                   class="d-block w-100"
-                  src="img/20240707_185949.jpg"
+                  id="my-image"
+                  style="height: 50vmax; padding: 40px;"
+                  src="img/20240707_190021.jpg"
                   alt="Third slide"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="img/20240707_194527.jpg"
-                  alt="4th slide"
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  class="d-block w-100"
-                  src="img/20240707_194111.jpg"
-                  alt="5th slide"
                 />
               </div>
             </div>
@@ -156,5 +168,6 @@
         </div>
       </div>
     </div>
+  </section>
   </body>
 </html>
