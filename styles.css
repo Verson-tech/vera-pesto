@@ -10,3 +10,10 @@ body {
   background-position: center;
   background-color: rgb(242, 239, 248);
 }
+.my-text {
+  font-family: fantasy;
+  color: #caf6f6;
+  font-weight: bolder;
+  /* allign to center */
+  text-align: center;
+}
