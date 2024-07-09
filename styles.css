@@ -25,3 +25,10 @@ body {
   text-align: center;
   font-size: xx-large;
 }
+
+.nav-link {
+  font-family: fantasy;
+  font-weight: bolder;
+  text-align: center;
+  font-size: x-large;
+}
