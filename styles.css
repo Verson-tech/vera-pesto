@@ -4,7 +4,7 @@
 
 body {
   transition: 1s background-image;
-  background-image: url("80%");
+  background-image: url("https://images.unsplash.com/photo-1712145176254-0c662c741c7d?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -14,7 +14,14 @@ body {
   font-family: fantasy;
   color: #023b0b;
   font-weight: bolder;
-  /* allign to center */
+  text-align: center;
+  font-size: medium;
+}
+
+.my-text-title {
+  font-family: fantasy;
+  color: #023b0b;
+  font-weight: bolder;
   text-align: center;
   font-size: xx-large;
 }
